@@ -1,7 +1,9 @@
 # vim-hclfmt
 
-Vim plugin to format hcl files. It support auto format on save. Unde the hood
+Vim plugin to format hcl files. It support auto format on save. Under the hood
 it uses [hclfmt](https://github.com/fatih/hclfmt)
+
+(![hclfmt](http://d.pr/i/eS0p+)
 
 ## Usage
 
