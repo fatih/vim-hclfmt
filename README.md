@@ -1,7 +1,11 @@
 # vim-hclfmt
 
-Vim plugin to format hcl files. It support auto format on save. Under the hood
-it uses [hclfmt](https://github.com/fatih/hclfmt)
+Vim plugin to format Hashicorp Configuration Language (HCL) files, this
+format is used by a number of Hashicorp tools, such as Terraform as the
+language used for configuration.
+
+The plugin by default will format *.hcl and *.tf files on save. Under the
+hood it uses [hclfmt](https://github.com/fatih/hclfmt) to process the files.
 
 ![hclfmt](http://g.recordit.co/fIQfohsGPI.gif)
 
@@ -9,10 +13,12 @@ it uses [hclfmt](https://github.com/fatih/hclfmt)
 
 Save the file or call `:HclFmt`. 
 
-By default vim-hclfmt automatically formats the file. To disable it:
+By default vim-hclfmt automatically formats *.hcl and *.tf files. These
+can be disabled by filetype as follows:
 
 ```
 g:hcl_fmt_autosave = 0
+g:tf_fmt_autosave = 0
 ```
 
 ## Install
@@ -29,5 +35,3 @@ plugin's install command.
   * `NeoBundle 'fatih/vim-hclfmt'`
 *  [Vundle](https://github.com/gmarik/vundle)
   * `Plugin 'fatih/vim-hclfmt'`
-
-
