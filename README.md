@@ -12,16 +12,14 @@ files.
 
 ## Usage
 
-Save the file or call `:HclFmt`. 
+Save the file or call `:HclFmt`.
 
-By default vim-hclfmt automatically formats *.hcl, *.tf and *.nomad files.
-These can be disabled by filetype as follows:
+By default vim-hclfmt automatically formats *.hcl, *.tf and *.nomad files. You can permanently set this configuration in your `~/.vimrc` as follows:
 
-```
-g:hcl_fmt_autosave = 0
-g:tf_fmt_autosave = 0
-g:nomad_fmt_autosave = 0
-```
+    let g:hcl_fmt_autosave = 0
+    let g:tf_fmt_autosave = 0
+    let g:nomad_fmt_autosave = 0
+
 
 ## Install
 
