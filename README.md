@@ -35,3 +35,7 @@ plugin's install command.
   * `NeoBundle 'fatih/vim-hclfmt'`
 *  [Vundle](https://github.com/gmarik/vundle)
   * `Plugin 'fatih/vim-hclfmt'`
+
+If [hclfmt](https://github.com/fatih/hclfmt) is not already installed:
+
+    go get github.com/fatih/hclfmt
